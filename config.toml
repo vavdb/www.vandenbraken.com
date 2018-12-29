@@ -1,0 +1,76 @@
+baseURL = "https://www.vandenbraken.com/"
+languageCode = "en-us"
+title = "Van den Braken"
+theme = "meghna"
+
+# Menu
+[menu]
+    [[menu.nav]]
+    name = "Vincent"
+    URL = "vincent"
+    weight = 2
+
+    [[menu.nav]]
+    name = "Leydi"
+    URL = "leydi"
+    weight = 3
+
+    [[menu.nav]]
+    name = "Josefina"
+    URL = "josefina"
+    weight = 4
+
+    [[menu.nav]]
+    name = "Contact"
+    URL = "contact-us"
+    weight = 8
+
+# Site params
+[params]
+home= "Home"
+logo = "images/logo.png"
+gmapAPI = "" # https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"
+custom_css = ["css/custom.css"]
+
+    # Banner Section
+    [params.banner]
+    enable = true
+    bgImage = "images/slider/160601_Leydi en Vincent_238.jpg"
+    icon = ""# tf-ion-play"
+    heading = "van den Braken"
+    content= "Vincent, Leydi en Josefina"
+    btn = false
+    
+    # footer
+    [params.footer]
+        copyright = "Van den Braken"
+        copyrightURL = "http://www.vandenbraken.com"
+
+        # social Icons
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-facebook"
+        url = "#"
+        
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-twitter"
+        url = "#"
+        
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-google-outline"
+        url = "#"
+        
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-youtube"
+        url = "#"
+        
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-linkedin"
+        url = "#"
+        
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-dribbble-outline"
+        url = "#"
+        
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-pinterest-outline"
+        url = "#"
