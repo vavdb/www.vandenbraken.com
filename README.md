@@ -1,17 +1,6 @@
-# www.vandenbraken.com
+# www.vandenbraken.com & www.vandenbrakenbreuls.com
 
-Contains the source of the www.vandenbraken.com website.
-This site then links to:
-https://vincent.vandenbraken.com
-https://leydi.vandenbraken.com
-https://josefina.vandenbraken.com
-
-
-
-
-## Getting Started
-
-Uses Hugo(https://gohugo.io/) for a simple static website.
+Contains the source of the  www.vandenbrakenbreuls.com and www.vandenbraken.com website.
 
 ## License
 
